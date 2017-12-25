@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.game.wizard.threekingdom.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TextView
+            android:id="@+id/Cavalry1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Cavalry2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Cavalry1"
+            android:layout_below="@+id/Cavalry1"
+            android:layout_marginTop="38dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Cavalry3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Cavalry2"
+            android:layout_below="@+id/Cavalry2"
+            android:layout_marginTop="33dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Cavalry4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Cavalry3"
+            android:layout_below="@+id/Cavalry3"
+            android:layout_marginTop="27dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Cavalry5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Cavalry4"
+            android:layout_below="@+id/Cavalry4"
+            android:layout_marginTop="27dp"
+            android:text="TextView" />
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="200dp"
+            android:layout_height="10dp"
+            android:layout_alignStart="@+id/Cavalry1"
+            android:layout_below="@+id/Cavalry1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TextView
+            android:id="@+id/eCavalry1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eCavalry2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/eCavalry1"
+            android:layout_below="@+id/eCavalry1"
+            android:layout_marginTop="35dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eCavalry3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/eCavalry2"
+            android:layout_centerVertical="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eCavalry4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/eCavalry3"
+            android:layout_below="@+id/eCavalry3"
+            android:layout_marginTop="31dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eCavalry5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/eCavalry4"
+            android:layout_below="@+id/eCavalry4"
+            android:layout_marginTop="27dp"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
